@@ -72,3 +72,7 @@ tu local
 git stash
 para ver los cambios git stash list
 aplicar cambios git stash apply
+16.quitar cambios anteriores git checkout -- xxx nombre del archivo para quita
+rle los cambios
+16.1 sacar el commit de una rama y pasarlo a otra git cherry-pick hash  
+hash del commit
