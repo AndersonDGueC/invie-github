@@ -24,3 +24,18 @@ mos y seguimos con la siguiente opción
 git commit --amend "xxxx" si mi commit anterior se encontraba bien
 en el valor de las x dejamos el nombre anterior
 entonces tecleamos solo git commit
+ver las listas de commit con git log	
+6 versionar el proyecto, utilizamos etiquetas tag, con el comando 
+git tag -a version -m "nombre deseado" (se realiza sobre el ultimo comm)
+git tag -l para ver las versiones del proyecto
+git tag version hash del commit. una etiqueta sencilla sobre cualquier comm	
+6.1 elimar y cambiar etiquetas
+elimiar git tag -d version
+renombrar mi tag git tag -f  -a  version -m 'iniciando el proyecto' y el hash
+7. personalizacion de git log
+git log --oneline el hash lo va ha resumir
+tambien podemos colocar multiples parametros git log --oneline --graph
+como avanza la historia de mi proyecto. (versiones alternas)
+log de los commits que quieras ver git log -# #numero de commits
+8. diferencias entre commits git diff hash mi estado actual con el commit 
+del hash compara
