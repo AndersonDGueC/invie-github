@@ -64,3 +64,5 @@ git checkout xx moverse a la rama xx
 git checkout sha1 nos movemos en el tiempo sobre nuestro proyecto.
 creamos una rama y accedemos a ella git checkout -b xxx
 13 mezclar cambios y resolviendo conflictos git merge
+14 reescribir el historial de tu proyecto git rebase
+14.1 nuvo flujo de ramas actualizado git checkout -b updateA
