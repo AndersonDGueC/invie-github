@@ -63,6 +63,7 @@ git checkout xx moverse a la rama xx
 12.1 movernos entre commits
 git checkout sha1 nos movemos en el tiempo sobre nuestro proyecto.
 creamos una rama y accedemos a ella git checkout -b xxx
+<<<<<<< HEAD
 13 mezclar cambios y resolviendo conflictos git merge
 14 reescribir el historial de tu proyecto git rebase
 14.1 sigue secuencial los cambios y anexos de las ramas y solo hacerlo en 
@@ -72,3 +73,5 @@ tu local
 git stash
 para ver los cambios git stash list
 aplicar cambios git stash apply
+=======
+>>>>>>> 34fc149... hotfix1
