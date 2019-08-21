@@ -39,3 +39,9 @@ como avanza la historia de mi proyecto. (versiones alternas)
 log de los commits que quieras ver git log -# #numero de commits
 8. diferencias entre commits git diff hash mi estado actual con el commit 
 del hash compara
+8.1 entre dos commits tenemos git diff hash1 hash2
+hay que tener encuenta el orden de los paramentros ya que pueden aparecer 
+como agregado o eliminado lineas de codigo
+9. reset para manipular versiones en el tiempo. por si hubo un error en la
+modificación o reescribir git reset --soft --mixed --hard
+git reset --mixed descarta cambios y quita archivos de stage
