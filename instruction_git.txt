@@ -1,0 +1,21 @@
+1 configuramos git despues de instalarlo: 
+1.1en consola agregamos email- git config --global user.email adguerreroc@...
+1.2en consola agregamos usuario- git config --global user.name anderson
+1.3 colores- git config --global color-ui true
+2 iniciar un repositorio
+2.1 git init xxx donde la xxx significa el nombre de la carpeta
+2.2 carpetas ya existentes, nos dirigimos  a la carpeta y sobre ella solo 
+marcamos git init
+2.3 agregar archivos a git, por lo general cuando creamos un archivo este se 
+encuentra en nuestro working directrory y queremos pasarlos a nuestro stage,
+primero realizamos una verificación con el comando 
+git status , si no tinen seguimiento
+utilizamos el git add xxxx
+luego verificamos con git status	
+3si luego quiero sacarlo del git stage utilizamos git --cached xxxx
+3.1 si tenemos varios archivos que queremos agregarlos al tiempo es git add-A 
+3.2 si quiero borrar los archivos del stage y working directory git rm -f xxxx
+3.3 confirmar si hay un archivo que existe en el directorio git add -n xxx
+4 comando que compromete nuestros cambios y los sube al repositorio es 
+git commit -m "xxx"  las x representa el mesaje que hemos hechos sobre el commit
+
