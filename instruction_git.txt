@@ -18,4 +18,9 @@ luego verificamos con git status
 3.3 confirmar si hay un archivo que existe en el directorio git add -n xxx
 4 comando que compromete nuestros cambios y los sube al repositorio es 
 git commit -m "xxx"  las x representa el mesaje que hemos hechos sobre el commit
-
+5 si por error agregamos una modificacion en el archivo base y no agregamos 
+una imagen u otro tipo de archivo, procedemos ha agregar el archivo que olvida
+mos y seguimos con la siguiente opción 
+git commit --amend "xxxx" si mi commit anterior se encontraba bien
+en el valor de las x dejamos el nombre anterior
+entonces tecleamos solo git commit
