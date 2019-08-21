@@ -45,3 +45,4 @@ como agregado o eliminado lineas de codigo
 9. reset para manipular versiones en el tiempo. por si hubo un error en la
 modificación o reescribir git reset --soft --mixed --hard
 git reset --mixed descarta cambios y quita archivos de stage
+git reset --hard elimina commit y elimina los archivos hasta de working direc
