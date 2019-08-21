@@ -63,3 +63,4 @@ git checkout xx moverse a la rama xx
 12.1 movernos entre commits
 git checkout sha1 nos movemos en el tiempo sobre nuestro proyecto.
 creamos una rama y accedemos a ella git checkout -b xxx
+13 mezclar cambios y resolviendo conflictos git merge
