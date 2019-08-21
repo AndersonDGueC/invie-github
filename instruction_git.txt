@@ -46,3 +46,21 @@ como agregado o eliminado lineas de codigo
 modificación o reescribir git reset --soft --mixed --hard
 git reset --mixed descarta cambios y quita archivos de stage
 git reset --hard elimina commit y elimina los archivos hasta de working direc
+puede eliminar todo que este en el stage, pero si los archivos solo se encuen-
+tran en el working directory y no se han subido al stage no los eliminara
+si por algun inconveniente borras todo, pero tenemos el hash del ultimo commit
+podemos restaurar todo. con git reset --hard sha1 o hash
+10. Configurar un editor de texto, por defecto en git esta con vim, pero 
+puede ser cualquiera como sublime-text, atom,  visual-estudio
+commando: git config --global core.editor "atom --wait"}
+11. Creacion de ramas, por si tienen un proyecto con diferentes cualidad
+git branch xxxx 
+git branch -l lista de ramas
+git branch -d x elimina una rama
+git branch -m xxx yy renomanbramos una rama xx con yy
+12. moviendome entre ramas y versiones para realizar cambios
+git checkout xx moverse a la rama xx
+12.1 movernos entre commits
+git checkout sha1 nos movemos en el tiempo sobre nuestro proyecto.
+creamos una rama y accedemos a ella git checkout -b xxx
+13 mezclar cambios y resolviendo conflictos git merge
