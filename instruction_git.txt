@@ -102,4 +102,7 @@ nuestro repositorio local.
 aplicamos git merge origin/master posiblemente nos envia un error:
 fatal: refusing to merge unrelated histories
 ejecutamos el comando git merge origin master --allow-unrelated-histories (flag)
- 
+22. Traer cambios en el repositorio remoto y combinarlos 
+git pull  nombre rama  
+23. los cambios realizados en el local enviarlos a remoto
+git push nombre rama
