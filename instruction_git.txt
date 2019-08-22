@@ -108,3 +108,8 @@ git pull  nombre rama
 git push nombre rama
 23.1 para agregar tags git push nombre rama --tags
 23.2 para agregar otra rama utilizamos git push rama2
+24. issues son problemas o incidencias que debemos resolver en el proyecto
+son sobre el master con formato .md (markdown)
+25 ignorar archivos para subir al repo remoto
+.gitignore lo creamos y dentro de el, subimos los archivos que 
+deseamos que no se actualicen en el remoto
