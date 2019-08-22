@@ -113,3 +113,5 @@ son sobre el master con formato .md (markdown)
 25 ignorar archivos para subir al repo remoto
 .gitignore lo creamos y dentro de el, subimos los archivos que 
 deseamos que no se actualicen en el remoto
+puedes tener diferente gitignore dependiendo del software que 
+utilices pagina gitignore.io	
