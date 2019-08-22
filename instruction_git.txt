@@ -107,3 +107,4 @@ git pull  nombre rama
 23. los cambios realizados en el local enviarlos a remoto
 git push nombre rama
 23.1 para agregar tags git push nombre rama --tags
+23.2 para agregar otra rama utilizamos git push rama2
