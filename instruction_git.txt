@@ -75,4 +75,31 @@ aplicar cambios git stash apply
 16.quitar cambios anteriores git checkout -- xxx nombre del archivo para quita
 rle los cambios
 16.1 sacar el commit de una rama y pasarlo a otra git cherry-pick hash  
-hash del commit
+hash del commit.
+17. clonar un repositorio git clone url
+18. aportar a un proyecto diferente, en github utilizo la opcion fork
+19. para hacer cambios en tu repositorio local y enviarlo a un servidor
+en internet o remoto utilizamos las llaves ssh 
+19.1 la creamos con: ssh-keygen -t rsa -b 4096 -C "email" debe ser el mismo 
+email.
+cuando creas tu llave ssh, la copias en github, para realizar esto 
+en linux utilizamos: cat < ~/.ssh/id_rsa.pub
+luego vamos a github, configuraciones, buscamos la opcion SSH and GPG keys,
+CLICKEAMOS el boton verde New SSH key; procedemos a darle un nomre, pegamos 
+el ssh y damos ok
+20. Añadir un repositorio remoto a uno local
+con git remote add
+pero antes debo crear un repositorio en mi github
+despues clonamos con HTTP o SSH para despues utilizar git remote add nombre url
+en nombre por convencion utilizamos origin
+20.1 para revisar que quedo totalmente agregado utilizamos git remote -v
+20.2 para eliminar un repositorio utilizamos git remote remove nombre.
+21. traer los archivos que se encuentren en el remoto al local
+utilizamos el comando git fetch nombre rama: aquí indicamos el nombre con el 
+que nombramos nuestra repo remota y la rama de esta.
+21.1 luego se obtendra la rama pero esta no esta mezclada con los datos de 
+nuestro repositorio local.
+aplicamos git merge origin/master posiblemente nos envia un error:
+fatal: refusing to merge unrelated histories
+ejecutamos el comando git merge origin master --allow-unrelated-histories (flag)
+ 
